@@ -3,7 +3,7 @@ function myFunction(){
   var x = document.getElementById("reply-box").value;
   var y = document.getElementById("comment-div");
   var btns = document.getElementsByClassName("reply-btn");
- 
+ //
   console.log(x)
     btns.forEach(my)
     if (y.style.display === "none") {
