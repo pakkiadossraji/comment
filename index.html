@@ -8,16 +8,18 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="main-div" id="parent">
-        <div>
-            <h3>Happy Hooman</h3>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui voluptas harum officia quasi, aspernatur praesentium veniam totam voluptates dolorum nisi necessitatibus accusamus cupiditate sit sed. Voluptatum quaerat labore saepe molestiae?</p>
-            <hr>
-        </div>
+    <div class="main-div">
+        <div class="parent">
             <div>
-                <input type="text" id="reply-box" placeholder="Reply here">
-                <button class="reply-btn" onclick="myFunction(this)">Reply</button>
-                <div id="getId"></div>
+                <h3>Happy Hooman</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui voluptas harum officia quasi, aspernatur praesentium veniam totam voluptates dolorum nisi necessitatibus accusamus cupiditate sit sed. Voluptatum quaerat labore saepe molestiae?</p>
+                <hr>
+            </div>
+                <div>
+                    <input type="text" class="reply-box" placeholder="Reply here">
+                    <button class="reply-btn">Reply</button>
+                    <div  class="getpara" id="getId"></div>
+                </div>
             </div>
             <!-- <div id="newComment">
                 <div id="comment-div">
@@ -27,8 +29,20 @@
                     </div>
                 </div>
             </div> -->
-       
+            <div class="parent">
+                    <div>
+                        <h3>Happy Hooman</h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui voluptas harum officia quasi, aspernatur praesentium veniam totam voluptates dolorum nisi necessitatibus accusamus cupiditate sit sed. Voluptatum quaerat labore saepe molestiae?</p>
+                        <hr>
+                    </div>
+                        <div>
+                            <input type="text" class="reply-box" placeholder="Reply here">
+                            <button class="reply-btn">Reply</button>
+                            <div class="getpara"id="getId"></div>
+                        </div>
+            </div>
         </div>
+        
     <script src="script.js"></script>
 </body>
 </html>
